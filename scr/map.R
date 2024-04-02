@@ -6,15 +6,45 @@ require(ggrepel)
 require(cowplot)
 require(readxl)
 require(ggspatial)
+require(dplyr)
 
 #import data
 RH_Finals <- read_excel("data_raw/Final Samples.xlsx")
 Finals <- read_excel("data_raw/Finals.xlsx")
-counties <- vect('./data/County_Boundaries.shp')
+counties <- vect('./data/Counties Boundaries/County_Boundaries.shp')
 r <- rast(counties)
 r <- raster::raster(r)
 
-#plot points
+
+#just B. Gris and both plot 
+BG <- Finals %>%
+  filter(Species != "Bombus ternarius") %>%
+  filter(Type != "Bombus ternarius")
+
+BG_Map <- ggplot() +
+  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75) +
+  geom_point(data = BG, aes(x = X, y = Y, color = Species), size = 2.5) +
+  geom_label_repel(data = BG, aes(x = X, y = Y, label = n_tubed, color = Type),
+                   min.segment.length = 0.05, size = 3, force = 10, max.overlaps = 100) +
+  scale_colour_manual(values=c('darkgreen', 'darkred')) +
+  theme_void(base_size = 16)
+BG_Map 
+#just B. tern and both plot
+BT <- Finals %>%
+  filter(Species != "Bombus griseocollis") %>%
+  filter(Type != "Bombus griseocollis")
+
+
+BT_Map <-ggplot() +
+  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75) +
+  geom_point(data = BT, aes(x = X, y = Y, color = Species), size = 2.5) +
+  geom_label_repel(data = BT, aes(x = X, y = Y, label = n_tubed, color = Type),
+                   min.segment.length = 0.05, size = 3, force = 10, max.overlaps = 100) +
+  scale_colour_manual(values=c('blue', 'darkred')) +
+  theme_void(base_size = 16)
+BT_Map
+
+#plot points together 
 map <- ggplot() +
   tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75) +
   geom_point(data = Finals, aes(x = X, y = Y, color = Species), size = 2.5) +
