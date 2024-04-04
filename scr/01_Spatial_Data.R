@@ -54,3 +54,7 @@ plot(predictors_final)
 
 #names of rasters in the stack
 bio_names <- names(predictors_final)
+
+#map sampling sites 
+tmap_mode("view")
+tm_shape(sf_finals) + tm_sf(col="red", size=1) + tm_raster(predictors_final$wc2.1_2.5m_bio_2)

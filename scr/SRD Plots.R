@@ -18,7 +18,11 @@ require(tibble)
 require(tmap)
 require(RColorBrewer)
 require(ggthemes)
+require(paletteer)
+require(ggplot2)
 
+
+#####WorldClim rename#####
 #preemptive rename for correlation
 new_column_names <- c(
   "BIO1",  "BIO10", "BIO11", "BIO12", "BIO13", "BIO14", "BIO15", 
@@ -36,7 +40,7 @@ new_column_names_2 <- c(
   "Temperature Annual Range (BIO5-BIO6)",                                    
   "Mean Temperature of Wettest Quarter")
 
-
+####WorldClim#####
 #import data set 
 Finals <- read_excel("data_raw/Finals.xlsx")
 
@@ -102,15 +106,40 @@ bio_names <- names(predictors_final)
 
 plot(predictors_final)
 
+#vector of ND counties 
+counties <- vect('./data/Counties Boundaries/County_Boundaries.shp')
+WorldClimND <- mask(predictors_final, counties)
+
 #Plot of just annual precip with data points
 par(mar=c(3,3,1,2))
-plot(predictors_final, "Precipitation of Wettest Quarter" , col=rev(rainbow(30)), main = "Precipitation of Wettest Quarter")
+plot(WorldClimND, "Precipitation of Wettest Quarter" , col= rev(paletteer_c("grDevices::ag_GrnYl", 130)), 
+     main = "Precipitation of Wettest Quarter")
+plot(counties, add = TRUE)
+
+ggplot() +
+  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75) +
+  tidyterra::geom_spatraster(data = WorldClimND, aes(fill = `Precipitation of Wettest Quarter`)) +
+  scale_fill_gradientn(colors = rev(paletteer_c("grDevices::ag_GrnYl", 130)), name = "Precipitation (mm)") +
+  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75)+
+  labs(title = "Precipitation of Wettest Quarter") + 
+  theme_void(base_size = 10) +
+  theme(plot.title = element_text(hjust = 0.5), 
+    legend.key.size = unit(2, "lines")) +
+theme_void(base_size = 10) 
+
 
 
 #Plot of just annual precip with data points
 par(mar=c(3,3,1,2))
-plot(predictors_final, "Temperature Annual Range (BIO5-BIO6)" , col=rev(rainbow(30)), main = "Temperature Annual Range (BIO5-BIO6)")
+plot(predictors_final, "Temperature Annual Range (BIO5-BIO6)" , col=rev(
+  paletteer_c("ggthemes::Red-Blue Diverging", 30)), main = "Temperature Annual Range")
 
+plot(WorldClimND, "Temperature Annual Range (BIO5-BIO6)",
+     col=rev(paletteer_c("ggthemes::Red-Blue Diverging", 130)), 
+     main = "Range of Annual Temperature")
+plot(counties, add = TRUE)
+
+####calculation#####
 #extract raster values 
 Sites.terra <- terra::extract(predictors_final, Sites.sf.longlat, bind=TRUE)
 Sites.sf <- sf::st_as_sf(Sites.terra)
@@ -125,3 +154,44 @@ landscapemetrics::list_lsm(level = "landscape", type = "diversity metric")
 percentage_class <- lsm_c_pland(landscape = predictors_final$`Temperature Annual Range (BIO5-BIO6)`)
 
 percentage_class
+
+
+
+
+#####LandCover####
+
+nlcd_files <- rast('./data/FedData/NA_NALCMS_landcover_2020_30m.tif')
+nlcd_legend <- read.csv('data/FedData/nlcd_legend.csv')
+counties <- vect('./data/Counties Boundaries/County_Boundaries.shp')
+r <- rast(counties)
+r <- raster::raster(r)
+
+#crop 
+nlcd_layers <- crop(nd, nlcd_files)
+nlcd_layers <- mask(nlcd_files, counties)
+
+#From Travis: edit legend 
+nlcd_legend$value <- nlcd_legend$ï..labels
+nlcd_legend$ï..labels <- NULL
+nlcd_legend2 <- rbind(data.frame(colors = '0000ffff', labels = 'Unclassified'), nlcd_legend)
+nlcd_legend2 <- nlcd_legend2[c(-3),]
+nlcd_legend3 <- data.frame(nlcd_legend2$labels, colors = c('0000ffff', '#486da2', '#e1cdce',
+                                                           '#dc9881', '#f10100', '#ad0101', '#b3afa4', 
+                                                           '#6ba966','#1d6533', '#bdcc93', '#d1bb82',
+                                                           '#a4cc51', '#ddd83e','#ae7229','#bbd7ed', '#71a4c1'))
+
+class(nlcd_layers)
+nlcd_layers
+counties
+
+
+plot(nlcd_files)
+nlcd_files
+
+
+######LandCover Change ######
+#load in 
+nlcc_plot <- rast('./data/FedData/NA_NALCMS_landchange_2015v3_2020_30m/NA_NALCMS_landchange_2015v3_2020_30m.tif')
+nlcc_plot <- crop(nlcc_plot, nd)
+plot(nlcc_plot)
+

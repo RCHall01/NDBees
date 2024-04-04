@@ -29,6 +29,7 @@ BG_Map <- ggplot() +
   scale_colour_manual(values=c('darkgreen', 'darkred')) +
   theme_void(base_size = 16)
 BG_Map 
+
 #just B. tern and both plot
 BT <- Finals %>%
   filter(Species != "Bombus griseocollis") %>%
@@ -41,6 +42,7 @@ BT_Map <-ggplot() +
   geom_label_repel(data = BT, aes(x = X, y = Y, label = n_tubed, color = Type),
                    min.segment.length = 0.05, size = 3, force = 10, max.overlaps = 100) +
   scale_colour_manual(values=c('blue', 'darkred')) +
+  guides(color = guide_legend(override.aes = list(shape = 16)))+
   theme_void(base_size = 16)
 BT_Map
 
@@ -52,6 +54,8 @@ map <- ggplot() +
                    min.segment.length = 0.05, size = 3, force = 10, max.overlaps = 100) +
   scale_colour_manual(values=c('darkgreen', 'blue', 'darkred')) +
   theme_void(base_size = 16)
+
+map
 
 #create scale/compass 
 scale <- ggplot() +
