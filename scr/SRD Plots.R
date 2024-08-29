@@ -33,7 +33,6 @@ new_column_names <- c(
 new_column_names_2 <- c(
   "Mean Temperature of Warmest Quarter",                                    
   "Precipitation of Wettest Month",                                          
-  "Precipitation of Driest Month",                                            
   "Precipitation Seasonality (Coefficient of Variation)",                     
   "Precipitation of Wettest Quarter",                                        
   "Mean Diurnal Range (Mean of monthly (max temp - min temp))",              
@@ -45,13 +44,6 @@ new_column_names_2 <- c(
 Finals <- read_excel("data_raw/Finals.xlsx")
 
 sf_finals <- st_as_sf(Finals, coords = c("X", "Y"), crs = 4326)
-
-Sites.sf.longlat <- st_transform(sf_finals, crs = 4326)
-head(Sites.sf.longlat)
-
-#map sampling sites 
-tmap_mode("view")
-tm_shape(sf_finals) + tm_sf(col="red", size=1)
 
 #load raster and clip
 #create list of env data
@@ -79,7 +71,7 @@ corrplot(mydata.cor, method = 'circle', type = 'lower', insig='blank',
          addCoef.col ='black', number.cex = 0.8, diag=FALSE)
 
 #set up the correlation value cutoff you want to use to make the list of highly correlated variables
-hc <- findCorrelation(mydata.cor, cutoff = 0.65)
+hc <- findCorrelation(mydata.cor, cutoff = 0.60)
 
 #sort the list of highlight correlated variables
 hc = sort(hc)
@@ -115,9 +107,13 @@ par(mar=c(3,3,1,2))
 plot(WorldClimND, "Precipitation of Wettest Quarter" , col= rev(paletteer_c("grDevices::ag_GrnYl", 130)), 
      main = "Precipitation of Wettest Quarter")
 plot(counties, add = TRUE)
+par(bg = "#F2FADC")  
+
+
+
+
 
 ggplot() +
-  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75) +
   tidyterra::geom_spatraster(data = WorldClimND, aes(fill = `Precipitation of Wettest Quarter`)) +
   scale_fill_gradientn(colors = rev(paletteer_c("grDevices::ag_GrnYl", 130)), name = "Precipitation (mm)") +
   tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75)+
@@ -126,6 +122,7 @@ ggplot() +
   theme(plot.title = element_text(hjust = 0.5), 
     legend.key.size = unit(2, "lines")) +
 theme_void(base_size = 10) 
+
 
 
 
@@ -138,6 +135,7 @@ plot(WorldClimND, "Temperature Annual Range (BIO5-BIO6)",
      col=rev(paletteer_c("ggthemes::Red-Blue Diverging", 130)), 
      main = "Range of Annual Temperature")
 plot(counties, add = TRUE)
+par(bg = "#F2FADC")  
 
 ####calculation#####
 #extract raster values 
@@ -159,34 +157,68 @@ percentage_class
 
 
 #####LandCover####
+#can also load with the main function
+nlcd_plot <- rast('./data/From Travis/NLCD/FedData/ND_NLCD_Land_Cover_2019.tif')
 
-nlcd_files <- rast('./data/FedData/NA_NALCMS_landcover_2020_30m.tif')
-nlcd_legend <- read.csv('data/FedData/nlcd_legend.csv')
-counties <- vect('./data/Counties Boundaries/County_Boundaries.shp')
-r <- rast(counties)
-r <- raster::raster(r)
+#csv of the colors to use
+nlcd_legend <- read.csv('./data/FedData/nlcd_legend.csv')
 
-#crop 
-nlcd_layers <- crop(nd, nlcd_files)
-nlcd_layers <- mask(nlcd_files, counties)
-
-#From Travis: edit legend 
+#quick rename
 nlcd_legend$value <- nlcd_legend$ï..labels
 nlcd_legend$ï..labels <- NULL
+
+#need to add unclassified
 nlcd_legend2 <- rbind(data.frame(colors = '0000ffff', labels = 'Unclassified'), nlcd_legend)
+
+#remove pren snow and ice
 nlcd_legend2 <- nlcd_legend2[c(-3),]
-nlcd_legend3 <- data.frame(nlcd_legend2$labels, colors = c('0000ffff', '#486da2', '#e1cdce',
-                                                           '#dc9881', '#f10100', '#ad0101', '#b3afa4', 
-                                                           '#6ba966','#1d6533', '#bdcc93', '#d1bb82',
-                                                           '#a4cc51', '#ddd83e','#ae7229','#bbd7ed', '#71a4c1'))
 
-class(nlcd_layers)
-nlcd_layers
-counties
+#fix projection issue
+nlcd_plot2 <- terra::project(nlcd_plot, counties)
+
+#although labels are correct, the colors are not quite right from that csv I found online, maybe an older version of nlcd
+#pull out from second position perrenial snow/ice
+#also change herbaceous to a slightly more green color original was '#edeccd'
+nlcd_legend3 <- data.frame(nlcd_legend2$labels, colors = c('0000ffff', '#486da2', '#e1cdce', '#dc9881', '#f10100', '#ad0101', '#b3afa4', '#6ba966','#1d6533', '#bdcc93', '#d1bb82','#a4cc51', '#ddd83e','#ae7229','#bbd7ed', '#71a4c1'))
+
+#quick rename
+nlcd_legend3$value <- nlcd_legend3$labels
+#crop the nlcd to better match the counties file
+nlcd_plot3 <- mask(nlcd_plot2, counties)
+
+#this version doesn't have 'unclassified'
+nlcd_legend3 <- nlcd_legend3[c(-1),]
+
+ggplot() +
+  geom_spatraster(data = nlcd_plot3) + scale_fill_manual(values = nlcd_legend3$colors, na.value = NA)+ 
+  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75)+
+  annotation_scale(location = c("bl"))+
+  theme_void(base_size = 16)
 
 
-plot(nlcd_files)
-nlcd_files
+NLCD <- ggplot() +
+  geom_spatraster(data = nlcd_plot3) +
+  scale_fill_manual(values = nlcd_legend3$colors, na.value = NA, name = "Key") +  # Set legend title with a line break
+  tidyterra::geom_spatvector(data = counties, fill = NA, colour = "black", size = 0.75) +
+  annotation_scale(location = c("bl")) +
+  theme(panel.grid.major = element_blank(), 
+                                  panel.grid.minor = element_blank(), 
+                                  panel.background = element_rect(fill = NA, color = NA),
+                                  plot.background = element_rect(fill = NA, color = NA)) +
+  theme_void()
+
+NLCD
+ggsave("./fig/NLCD.png",
+       
+       NLCD,
+       
+       bg = "transparent",
+       
+       dpi = "print",
+       
+       height = 10,
+       
+       width = 8.27)
 
 
 ######LandCover Change ######
