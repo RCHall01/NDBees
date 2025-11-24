@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N admixture
+#PBS -l select=1:mem=60gb:ncpus=1
+#PBS -l walltime=06:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn 
+
+module load admixture 
+
+for i in {2..10} 
+do
+admixture --cv /mmfs1/scratch/rhiannon.hall/bee_samples/BOTE/plink/BOTE.bed $i > /mmfs1/scratch/rhiannon.hall/bee_samples/BOTE/admixture/log${i}.out 
+done 

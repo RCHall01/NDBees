@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N BOGR_r1trim
+#PBS -l select=1:mem=60gb:ncpus=16
+#PBS -l walltime=12:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn 
+
+source /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/myenv/bin/activate 
+
+for infile in /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/myenv/BOGR/fastq/*_R1_001.fastq.gz
+
+do
+base=$(basename ${infile} _R1_001.fastq.gz)
+
+perl /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/myenv/BOGR/scr/08_gbstrim.pl --enzyme1 btgi --enzyme2 taqi --read R1 --threads 1 --minlength 50 --fastqfile ${infile} --outputfile /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/myenv/BOGR/trim/${base}_R1_001.trim.fastq.gz
+
+done 
+
+deactivate

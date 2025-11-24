@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N BOTE_align
+#PBS -l select=1:mem=150gb:ncpus=16
+#PBS -l walltime=120:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn 
+
+module load bwa 
+module load samtools 
+
+for infile in /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/myenv/BOTE/sync/*_R1_synced.fastq
+
+do
+base=$(basename ${infile} _R1_synced.fastq)
+
+bwa mem -t 16 /mmfs1/projects/travis.seaborn/RHall/BOTE_trial/reference/GCF_024542735.1_iyBomHunt1.1_genomic.fna ${infile} /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/myenv/BOTE/sync/${base}_R2_synced.fastq | samtools sort -@ 16 -O bam -o /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/align/${base}.sorted.bam
+
+    samtools index /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/align/${base}.sorted.bam
+done

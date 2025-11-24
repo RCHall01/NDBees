@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N BOTE_call_genotypes
+#PBS -l select=1:mem=60gb:ncpus=1
+#PBS -l walltime=12:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn 
+
+module load stacks 
+gstacks -I /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/renamed_align -M /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/scr/popmap.txt \
+-O /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/gstacks -t 4

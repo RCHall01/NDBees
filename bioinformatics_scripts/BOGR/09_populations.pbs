@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N BOGR_populations
+#PBS -l select=1:mem=60gb:ncpus=1
+#PBS -l walltime=06:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn 
+
+module load stacks 
+
+populations -P /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/gstacks \
+            -O /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/populations \
+            -M /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/scr/popmap2.txt \
+            -R 0.7 --min-maf 0.01 --vcf
+

@@ -1,0 +1,44 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N BOTE_flagstat 
+#PBS -l select=1:mem=60gb:ncpus=16
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn
+
+
+module load samtools
+
+cd /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/align
+
+# Run flagstat for each BAM
+for file in *.bam
+do
+    sample=$(basename "$file" .bam)
+    echo "Processing $file"
+    samtools flagstat "$file" \
+        > /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/flagstat/${sample}_flagstat.txt \
+        2> /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/flagstat/${sample}_flagstat.stderr
+done
+
+# Combine into one tab-delimited file
+cd /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/flagstat
+for filename in *_flagstat.txt
+do
+    tr '\n' '\t' < "$filename"
+    echo "$filename"
+done > All_RAD_sort_combined.flagstat_tabbed.txt
+
+# Extract relevant columns
+awk '{print $88 "\t" $1 "\t" $23 "\t" $27 "\t"$30 "\t"$44 "\t" $49 "\t" $52 "\t"$60 "\t" $64 "\t" $67 "\t" $77 }' \
+    All_RAD_sort_combined.flagstat_tabbed.txt \
+    > All_RAD_sort_combined_flagstat_reformat.txt
+
+# Clean symbols
+sed -i 's/(//g' All_RAD_sort_combined_flagstat_reformat.txt
+sed -i 's/%//g' All_RAD_sort_combined_flagstat_reformat.txt
+
+# Add header
+cat /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOTE/BIP/scr/short_flagstat_headers \
+    All_RAD_sort_combined_flagstat_reformat.txt \
+    > All_head_flagstat_reformat.txt

@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N BOGR_renaming
+#PBS -l select=1:mem=60gb:ncpus=16
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn
+
+for infile in /mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/align/*.sorted.bam; do
+    base=$(basename "${infile}" | sed 's/_S[0-9]*_L[0-9]*\.sorted\.bam//')
+    cp "${infile}" "/mmfs1/scratch/rhiannon.hall/bee_samples/08_UMGC/BOGR/BIP/renamed_align/${base}.bam"
+done
+
