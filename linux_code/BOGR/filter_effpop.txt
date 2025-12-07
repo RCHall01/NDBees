@@ -1,0 +1,1 @@
+vcftools --vcf BOGR_LD.vcf --remove-indels --min-alleles 2 --max-alleles 2 --thin 15000 --recode --out BOGR15

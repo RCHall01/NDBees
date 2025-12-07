@@ -1,0 +1,1 @@
+ sed -E 's/UMGC-Sea-[0-9]+-[0-9]+-BOTE-([0-9]+),/BOTE_\1,/' BOTE_genepop.gen > BOTE_genepop_clean.gen

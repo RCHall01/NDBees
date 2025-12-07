@@ -1,0 +1,1 @@
+ sed -E 's/UMGC-Sea-[0-9]+-[0-9]+-BOGR-([0-9]+),/BOGR_\1,/' BOGR_genepop.gen > BOGR_genepop_clean.gen

@@ -1,0 +1,6 @@
+vcftools --vcf populations.snps.vcf --remove-indels --min-alleles 2 --max-alleles 2 --thin 2 --recode --out BOGR100
+vcftools --vcf BOGR100.vcf --max-missing 0.8 --recode --out BOGR100T
+vcftools --vcf BOGR100T.vcf --remove removed_inds.txt --recode --out sib_filt
+plink2 --vcf sib_filt.vcf --set-all-var-ids @:# --indep-pairwise 50 1 0.2 --allow-extra-chr --out ld_filt
+awk -F ":" '{print $1 "\t" $2}' ld_filt.prune.out  > positions.txt
+vcftools --vcf sib_filt.vcf --exclude-positions positions.txt --recode --out BOGR_adapt

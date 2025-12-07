@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -q default 
+#PBS -N testtrim
+#PBS -l select=1:mem=60gb:ncpus=16
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -W group_list=x-ccast-prj-tseaborn 
+
+cd /mmfs1/scratch/rhiannon.hall/bee_samples/NeEstimator/BOGR/
+
+module load neEstimator/2.1
+
+Ne2-1L c:input_script.txt

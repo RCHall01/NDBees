@@ -1,0 +1,5 @@
+plink --vcf BOTE_obj2.vcf --make-bed --allow-extra-chr  --out BOTE
+awk '{$1="0";print $0}' /mmfs1/home/rhiannon.hall/bee_samples/admixture/BOTE.bim > /mmfs1/home/rhiannon.hall/bee_samples/admixture/BOTE.bim.tmp;
+mv /mmfs1/home/rhiannon.hall/bee_samples/admixture/BOTE.bim.tmp /mmfs1/home/rhiannon.hall/bee_samples/admixture/BOTE.bim
+ qsub 08_admixture.pbs
+ grep "CV" *out | awk '{print $3,$4}' | cut -c 4,7-20 > admixture.cv.error
