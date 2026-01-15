@@ -1,0 +1,209 @@
+sample_id,sample_site,X,Y,queen,male,weight,parts_sent,date_collected,reference_number,notes,shipping_box,plate_number
+BOGR_0001,EDD-150-065-24,-98.925603,47.801788,no,no,50,w,2017,2219,,baggie,plate 1
+BOGR_0002,EDD-150-065-24,-98.925603,47.801788,no,no,40,w,2019,15376,,baggie,plate 1
+BOGR_0003,EDD-150-065-24,-98.925603,47.801788,no,no,60,w,2019,15377,,baggie,plate 1
+BOGR_0004,EDD-150-065-24,-98.925603,47.801788,yes,no,50,"half ab, 1l",2020,20949,,baggie,plate 1
+BOGR_0005,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,w,2017,71,,baggie,plate 1
+BOGR_0006,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,50,w,2018,11872,,baggie,plate 1
+BOGR_0007,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,60,w,2018,9519,,baggie,plate 1
+BOGR_0008,EDD-150-065-24,-98.925603,47.801788,yes,no,50,ab,2019,14937,,baggie,plate 1
+BOGR_0009,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15405,,box 1,plate 1
+BOGR_0010,Pierce_Long_Lake_WPA,-99.825541,48.48316,yes,no,30,6l,2019,15408,,box 1,plate 1
+BOGR_0011,Pierce_Long_Lake_WPA,-99.825541,48.48316,yes,no,50,ab,2018,9830,,box 1,plate 1
+BOGR_0012,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,50,half ab,2018,9828,,box 1,plate 1
+BOGR_0013,Pierce_Long_Lake_WPA,-99.825541,48.48316,yes,no,40,6L,2018,9827,,box 1,plate 1
+BOGR_0014,Pierce_Long_Lake_WPA,-99.825541,48.48316,yes,no,30,6L,2018,9826,,box 1,plate 1
+BOGR_0015,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,40,"ab, 6l",2018,11845,,box 1,plate 1
+BOGR_0016,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,40,"ab, 6l",2018,11844,extra in tube labeled BOGR_0028_2,box 1,plate 1
+BOGR_0017,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,60,w,2018,11843,,box 1,plate 1
+BOGR_0018,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,40,w,2020,20936,,box 1,plate 1
+BOGR_0019,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,60,w,2020,20883,,box 1,plate 1
+BOGR_0020,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,40,w,2019,15382,,box 1,plate 1
+BOGR_0021,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,50,"ab, 6l",2019,15381,,box 1,plate 1
+BOGR_0022,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,50,w,2019,15380,,box 1,plate 1
+BOGR_0023,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,60,w,2019,15379,,box 1,plate 1
+BOGR_0024,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,60,w,2019,15364,,box 1,plate 1
+BOGR_0025,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,40,w,2019,15362,,box 1,plate 1
+BOGR_0026,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,60,w,2019,15363,,box 1,plate 1
+BOGR_0027,Sheridan_Trego_West_1,Location available upon request and owner approval ,,no,no,50,w,2019,15378,,box 1,plate 1
+BOGR_0028,McHenry_Taylor_Central ,Location available upon request and owner approval ,,yes,no,60,half ab,2018,9539,,box 1,plate 1
+BOGR_0029,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,30,"ab, 6l",2018,11908,,box 1,plate 1
+BOGR_0030,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,40,ab,2018,11899,,box 1,plate 1
+BOGR_0031,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,50,"ab, 4l",2018,11909,,box 1,plate 1
+BOGR_0032,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,50,ab,2018,11910,,box 1,plate 1
+BOGR_0033,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,50,ab,2018,11911,extra in tube labeled BOGR_0045_2,box 1,plate 1
+BOGR_0034,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,60,ab,2018,11912,,box 1,plate 1
+BOGR_0035,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,40,"ab, 6l",2018,11913,,box 1,plate 1
+BOGR_0036,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,40,"ab, 4l",2018,11914,,box 1,plate 1
+BOGR_0037,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,40,ab,2018,11915,,box 1,plate 1
+BOGR_0038,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,50,ab,2018,11916,,box 1,plate 1
+BOGR_0039,McHenry_Taylor_Central ,Location available upon request and owner approval ,,no,no,50,ab,2018,11918,,box 1,plate 1
+BOGR_0040,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,50,w,2020,20974,,box 1,plate 1
+BOGR_0041,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,50,w,2020,20973,,box 1,plate 1
+BOGR_0042,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,40,w,2020,20972,,box 1,plate 1
+BOGR_0043,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,50,"ab, 6l",2020,20971,,box 1,plate 1
+BOGR_0044,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,40,w,2020,20970,extra in tube labeled BOGR_0056_2,box 1,plate 1
+BOGR_0045,Cavalier_Thorson_WPA,-98.6072073,48.55438964,yes,no,40,"half ab, 6l",2020,20978,,box 1,plate 1
+BOGR_0046,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,30,"ab, 6l",2020,20977,,box 1,plate 1
+BOGR_0047,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,60,w,2020,20976,,box 1,plate 1
+BOGR_0048,Cavalier_Thorson_WPA,-98.6072073,48.55438964,no,no,50,w,2020,20975,,box 1,plate 1
+BOGR_0049,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,w,2020,20822,,box 1,plate 1
+BOGR_0050,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,40,"ab, 6l",2020,20824,,box 1,plate 1
+BOGR_0051,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,"ab, 4l",2020,20779,,box 1,plate 1
+BOGR_0052,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,"ab, 4l",2020,20782,,box 1,plate 1
+BOGR_0053,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,60,w,2020,20780,,box 1,plate 1
+BOGR_0054,Wells_Pipestone_WPA,-99.63883385,47.39720651,yes,no,40,6l,2020,20781,,box 1,plate 1
+BOGR_0055,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,"ab, 6l",2020,20825,,box 1,plate 1
+BOGR_0056,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,half ab,2020,20827,,box 1,plate 1
+BOGR_0057,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,w,2020,20821,,box 1,plate 1
+BOGR_0058,Wells_Pipestone_WPA,-99.63883385,47.39720651,no,no,50,w,2020,20823,,box 1,plate 1
+BOGR_0059,WEL-149-069-36,-99.436155,47.687291,no,no,50,w,2009,15483,,box 1,plate 1
+BOGR_0060,WEL-149-069-36,-99.436155,47.687291,yes,no,40,6l,2018,9903,,box 1,plate 1
+BOGR_0061,WEL-149-069-36,-99.436155,47.687291,yes,no,40,6l,2018,9902,,box 1,plate 1
+BOGR_0062,WEL-149-069-36,-99.436155,47.687291,yes,no,40,6l,2018,9901,,box 1,plate 1
+BOGR_0063,WEL-149-069-36,-99.436155,47.687291,no,no,50,w,2018,11879,,box 1,plate 1
+BOGR_0064,WEL-149-069-36,-99.436155,47.687291,no,no,50,w,2020,20835,,box 1,plate 1
+BOGR_0065,WEL-149-069-36,-99.436155,47.687291,no,no,60,w,2020,20836,,box 1,plate 1
+BOGR_0066,WEL-149-069-36,-99.436155,47.687291,no,no,50,"ab, 6l",2020,20828,,box 1,plate 1
+BOGR_0067,WEL-149-069-36,-99.436155,47.687291,no,no,50,w,2020,20829,,box 1,plate 1
+BOGR_0068,WEL-149-069-36,-99.436155,47.687291,no,no,50,"ab, 6l",2020,20833,,box 1,plate 1
+BOGR_0069,WEL-149-069-36,-99.436155,47.687291,no,no,40,"ab, 61 ",2020,20834,,box 1,plate 1
+BOGR_0070,WEL-149-069-36,-99.436155,47.687291,no,no,60,w,2017,1196,,box 1,plate 1
+BOGR_0071,WEL-149-069-36,-99.436155,47.687291,no,no,60,"ab, 6l",2020,20826,,box 1,plate 1
+BOGR_0072,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,w,2017,770,,box 1,plate 1
+BOGR_0073,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,769,,box 1,plate 1
+BOGR_0074,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,w,2017,774,,box 1,plate 1
+BOGR_0075,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,775,,box 1,plate 1
+BOGR_0076,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,776,,box 1,plate 1
+BOGR_0077,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,"ab, 6L",2017,777,,box 1,plate 1
+BOGR_0078,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,"ab, 6L",2017,778,,box 1,plate 1
+BOGR_0079,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,"ab, 6l",2017,779,,box 1,plate 1
+BOGR_0080,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,w,2017,771,,box 1,plate 1
+BOGR_0081,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,w,2017,772,,box 1,plate 1
+BOGR_0082,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,773,,box 1,plate 1
+BOGR_0083,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,50,"ab, 6l",2018,9929,,box 1,plate 1
+BOGR_0084,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,40,"ab, 6l",2018,9928,,box 1,plate 1
+BOGR_0085,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,60,w,2018,9927,,box 1,plate 1
+BOGR_0086,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,40,"ab, 6l",2018,9926,,box 1,plate 1
+BOGR_0087,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,60,w,2018,9860,,box 1,plate 1
+BOGR_0088,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,30,"ab, 6l",2018,9859,,box 1,plate 1
+BOGR_0089,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,60,w,2018,9857,,box 1,plate 1
+BOGR_0090,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,50,w,2018,11832,,box 2,plate 1
+BOGR_0091,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,50,w,2018,14794,,box 2,plate 1
+BOGR_0092,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,40,ab,2017,1361,,box 2,plate 1
+BOGR_0093,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,50,"ab, 6l",2017,1139,,box 2,plate 1
+BOGR_0094,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,50,w,2020,20737,,box 2,plate 1
+BOGR_0095,Agnes_Marsh_WPA,-97.727203,48.085107,no,no,60,w,2018,9924,,box 2,plate 1
+BOGR_0096,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,50,w,2018,11923,,box 2,plate 1
+BOGR_0097,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,50,w,2018,11924,,box 2,plate 1
+BOGR_0098,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,50,w,2018,9600,,box 2,plate 1
+BOGR_0099,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,60,w,2018,11925,,box 2,plate 1
+BOGR_0100,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,60,"ab, 6l",2018,9598,,box 2,plate 1
+BOGR_0101,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,40,"ab, 2l",2018,9599,,box 2,plate 1
+BOGR_0102,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,30,ab,2018,9601,,box 2,plate 1
+BOGR_0103,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,40,"ab, 2l",2018,11922,,box 2,plate 2
+BOGR_0104,Morton_Graner_Bottoms_WMA,-100.709717,46.652197,no,no,60,w,2018,11932,,box 2,plate 2
+BOGR_0105,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,50,w,2020,20987,,box 2,plate 2
+BOGR_0106,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,60,w,2020,20984,,box 2,plate 2
+BOGR_0107,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,50,w,2020,20988,,box 2,plate 2
+BOGR_0108,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,50,"h, ab, 2l",2018,11809,,box 2,plate 2
+BOGR_0109,Fitzsimond_Slough_WMA,-97.789134,48.94874,yes,no,40,6l,2017,45,,box 2,plate 2
+BOGR_0110,Fitzsimond_Slough_WMA,-97.789134,48.94874,Unknown ,no,40,6l,2018,9920,,box 2,plate 2
+BOGR_0111,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,"ab, 2l",2020,20986,,box 2,plate 2
+BOGR_0112,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,"ab, 6l",2020,20989,,box 2,plate 2
+BOGR_0113,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,60,"ab, 6l",2020,20985,,box 2,plate 2
+BOGR_0114,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,50,"ab, 6l",2019,15390,,box 2,plate 2
+BOGR_0115,FOS-147-062-26,-98.525493,47.518368,yes,no,50,6l,2018,11890,,box 2,plate 2
+BOGR_0116,FOS-147-062-26,-98.525493,47.518368,no,no,40,"ab, 6l",2020,20812,,box 2,plate 2
+BOGR_0117,FOS-147-062-26,-98.525493,47.518368,no,no,50,ab,2020,20706,,box 2,plate 2
+BOGR_0118,FOS-147-062-26,-98.525493,47.518368,no,no,60,"half ab, 6l",2020,20705,,box 2,plate 2
+BOGR_0119,FOS-147-062-26,-98.525493,47.518368,yes,no,50,6l,2017,116,,box 2,plate 2
+BOGR_0120,FOS-147-062-26,-98.525493,47.518368,yes,no,40,6l,2020,20809,,box 2,plate 2
+BOGR_0121,FOS-147-062-26,-98.525493,47.518368,no,no,50,w,2020,20811,,box 2,plate 2
+BOGR_0122,FOS-147-062-26,-98.525493,47.518368,no,no,60,w,2020,20810,,box 2,plate 2
+BOGR_0123,FOS-147-062-26,-98.525493,47.518368,no,no,40,"ab, 6l",2020,20808,,box 2,plate 2
+BOGR_0124,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,60,"ab, 6l",2019,15517,,box 2,plate 2
+BOGR_0125,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,"ab, 6l",2019,15518,,box 2,plate 2
+BOGR_0126,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,60,w,2019,15520,,box 2,plate 2
+BOGR_0127,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,60,w,2019,15498,,box 2,plate 2
+BOGR_0128,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,w,2019,15501,,box 2,plate 2
+BOGR_0129,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,60,w,2019,15500,,box 2,plate 2
+BOGR_0130,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,"ab, 6l",2018,9855,,box 2,plate 2
+BOGR_0131,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,"ab, 21",2018,9854,,box 2,plate 2
+BOGR_0132,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,w,2018,11819,,box 2,plate 2
+BOGR_0133,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,w,2020,20703,,box 2,plate 2
+BOGR_0134,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,w,2018,11812,,box 2,plate 2
+BOGR_0135,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,w,2020,20841,,box 2,plate 2
+BOGR_0136,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,"ab, 6l",2018,11818,,box 2,plate 2
+BOGR_0137,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,"ab, 4l",2018,11817,,box 2,plate 2
+BOGR_0138,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,"ab, 4l",2018,11816,,box 2,plate 2
+BOGR_0139,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,"ab, 2l",2018,11815,,box 2,plate 2
+BOGR_0140,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,"ab, 6l",2018,11813,,box 2,plate 2
+BOGR_0141,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,40,"ab, 6l",2019,15513,,box 2,plate 2
+BOGR_0142,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,50,"ab, 6l",2018,11814,,box 2,plate 2
+BOGR_0143,Hettinger_Hillsview_WPA,-102.479877,46.58122,no,no,60,ab,2019,15514,,box 2,plate 2
+BOGR_0144,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,30,"ab, 6l",2019,15528,,box 2,plate 2
+BOGR_0145,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,50,w,2019,15529,,box 2,plate 2
+BOGR_0146,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,50,"ab, 6l",2019,15530,,box 2,plate 2
+BOGR_0147,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,50,"ab, 6l",2019,15531,,box 2,plate 2
+BOGR_0148,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,yes,no,40,6l,2019,15503,,box 2,plate 2
+BOGR_0149,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,50,"ab, 4l",2019,15372,,box 2,plate 2
+BOGR_0150,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,60,w,2019,15371,,box 2,plate 2
+BOGR_0151,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,60,w,2019,15370,,box 2,plate 2
+BOGR_0152,Adams_Blaha_Wolf_Butte,Location available upon request and owner approval ,,no,no,60,w,2019,15369,,box 2,plate 2
+BOGR_0153,BIL-144-099-36,-103.168682,47.245237,no,no,40,"ab, 6l",2018,9584,,box 2,plate 2
+BOGR_0154,BIL-144-099-36,-103.168682,47.245237,yes,no,60,"half ab, 6l",2018,9851,,box 2,plate 2
+BOGR_0155,BIL-144-099-36,-103.168682,47.245237,no,no,50,"ab, 6l",2018,9853,,box 2,plate 2
+BOGR_0156,BIL-144-099-36,-103.168682,47.245237,no,no,60,w,2018,9607,,box 2,plate 2
+BOGR_0157,BIL-144-099-36,-103.168682,47.245237,no,no,60,w,2018,9605,,box 2,plate 2
+BOGR_0158,BIL-144-099-36,-103.168682,47.245237,no,no,50,"ab, 6l",2018,9585,,box 2,plate 2
+BOGR_0159,BIL-144-099-36,-103.168682,47.245237,no,no,50,"ab, 6l",2018,9611,,box 2,plate 2
+BOGR_0160,BIL-144-099-36,-103.168682,47.245237,no,no,50,"ab, 6l",2018,9609,,box 2,plate 2
+BOGR_0161,BIL-144-099-36,-103.168682,47.245237,yes,no,60,6l,2020,20871,,box 2,plate 2
+BOGR_0162,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,40,"ab, 6l",2019,14938,,box 2,plate 2
+BOGR_0163,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,40,"ab, 6l",2018,11873,,box 2,plate 2
+BOGR_0164,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,50,w,2018,11871,,box 2,plate 2
+BOGR_0165,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,60,"ab, 6l",2018,11870,,box 2,plate 2
+BOGR_0166,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,60,w,2018,11869,,box 2,plate 2
+BOGR_0167,Emmons_Schiermeister_WPA,-100.498669,46.384451,yes,no,30,6l,2020,20885,,box 2,plate 2
+BOGR_0168,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,50,w,2020,20876,,box 2,plate 2
+BOGR_0169,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,30,"ab, 6l",2020,20875,,box 2,plate 2
+BOGR_0170,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,60,w,2020,20874,,box 2,plate 2
+BOGR_0171,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,40,"ab, 6l",2020,20873,,box 3,plate 2
+BOGR_0172,Emmons_Schiermeister_WPA,-100.498669,46.384451,yes,no,60,ab,2017,204,,box 3,plate 2
+BOGR_0173,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,60,w,2017,205,,box 3,plate 2
+BOGR_0174,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,50,w,2017,5906,,box 3,plate 2
+BOGR_0175,Emmons_Schiermeister_WPA,-100.498669,46.384451,no,no,50,"ab, 6l",2017,5905,,box 3,plate 2
+BOGR_0176,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,w,2018,9900,,box 3,plate 2
+BOGR_0177,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,40,"ab, 6l",2017,70,,box 3,plate 2
+BOGR_0178,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,w,2017,77,,box 3,plate 2
+BOGR_0179,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,w,2020,20718,,box 3,plate 2
+BOGR_0180,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,ab,2020,20799,,box 3,plate 2
+BOGR_0181,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,40,"ab, 6l",2018,9899,,box 3,plate 2
+BOGR_0182,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,"ab, 4l",2018,9897,,box 3,plate 2
+BOGR_0183,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,60,"ab, 4l",2018,9898,,box 3,plate 2
+BOGR_0184,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,w,2019,14907,,box 3,plate 2
+BOGR_0185,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,60,w,2019,14908,,box 3,plate 2
+BOGR_0186,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,w,2019,14925,,box 3,plate 2
+BOGR_0187,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,60,ab,2019,15393,,box 3,plate 2
+BOGR_0188,Cass_Erie_Dam_WMA,-97.42942,47.099056,Unknown ,no,50,ab,2019,15391,,box 3,plate 2
+BOGR_0189,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,"ab, 4l",2019,15374,,box 3,plate 2
+BOGR_0190,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,50,"ab, 4l",2019,15396,,box 3,plate 2
+BOGR_0191,Cass_Erie_Dam_WMA,-97.42942,47.099056,yes,no,40,"h, 6l",2019,14926,,box 3,plate 2
+BOGR_0192,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,60,w,2019,15375,,box 3,plate 2
+BOGR_0193,Cass_Erie_Dam_WMA,-97.42942,47.099056,no,no,30,"ab, 6l",2019,14905,,box 3,plate 2
+BOGR_0194,EDD-150-065-24,-98.925603,47.801788,no,no,60,w,2019,15495,,box 3,plate 2
+BOGR_0195,EDD-150-065-24,-98.925603,47.801788,no,no,50,w,2019,15493,,box 3,plate 2
+BOGR_0196,EDD-150-065-24,-98.925603,47.801788,no,no,50,w,2019,15479,,box 3,plate 2
+BOGR_0197,EDD-150-065-24,-98.925603,47.801788,yes,no,30,6l,2019,14912,,box 3,plate 3
+BOGR_0198,EDD-150-065-24,-98.925603,47.801788,Unknown ,no,50,ab,2019,15490,,box 3,plate 3
+BOGR_0199,EDD-150-065-24,-98.925603,47.801788,no,no,40,"ab, 6l",2019,15346,,box 3,plate 3
+BOGR_0200,EDD-150-065-24,-98.925603,47.801788,no,no,60,"h, 6l, t",2019,15508,abdomen in tube 0015508 ,box 3,plate 3
+BOGR_0201,EDD-150-065-24,-98.925603,47.801788,yes,no,40,6l,2020,20945,,box 3,plate 3
+BOGR_0202,EDD-150-065-24,-98.925603,47.801788,yes,no,30,6l,2020,20943,,box 3,plate 3
+BOGR_0203,EDD-150-065-24,-98.925603,47.801788,yes,no,40,6l,2019,14914,,box 3,plate 3
+BOGR_0204,EDD-150-065-24,-98.925603,47.801788,yes,no,40,6l,2020,20952,,box 3,plate 3
+BOGR_0205,EDD-150-065-24,-98.925603,47.801788,yes,no,50,6l,2020,20950,,box 3,plate 3
+BOGR_0206,EDD-150-065-24,-98.925603,47.801788,no,no,50,w,2020,20946,,box 3,plate 3
+BOGR_0207,EDD-150-065-24,-98.925603,47.801788,no,no,50,w,2020,20913,,box 3,plate 3
+BOGR_0208,EDD-150-065-24,-98.925603,47.801788,no,no,40,"ab, 6l",2020,20912,,box 3,plate 3

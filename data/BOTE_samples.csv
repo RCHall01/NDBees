@@ -1,0 +1,176 @@
+﻿sample_id,sample_site,X,Y,queen,male,weight,parts_sent,date_collected,reference_number,notes,shipping_box,plate_number
+BOTE_0001,Griggs_Evers_WPA,-98.360844,47.503219,no,no,60,w,2017,753,,baggie,plate 1
+BOTE_0002,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,754,,baggie,plate 1
+BOTE_0003,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,731,,baggie,plate 1
+BOTE_0004,Fitzsimond_Slough_WMA,-97.789134,48.94874,yes,no,60,"ab, 6l",2019,15563,extra in tube labeled bogr_0004_2,baggie,plate 1
+BOTE_0005,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2020,21117,,baggie,plate 1
+BOTE_0006,Griggs_Evers_WPA,-98.360844,47.503219,no,no,20,w,2017,745,pollen,baggie,plate 1
+BOTE_0007,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,767,,baggie,plate 1
+BOTE_0008,GRI-148-061-36,-98.377549,47.592612,yes,no,50,ab,2017,14,,baggie,plate 1
+BOTE_0009,ROL-160-072-36,-99.926416,48.819053,no,no,20,w,2020,21105,,baggie,plate 1
+BOTE_0010,ROL-160-072-36,-99.926416,48.819053,no,no,20,w,2020,20639,,baggie,plate 1
+BOTE_0011,Griggs_Evers_WPA,-98.360844,47.503219,no,no,20,w,2017,755,,baggie,plate 1
+BOTE_0012,Griggs_Evers_WPA,-98.360844,47.503219,no,no,30,w,2017,768,extra in tube labeled BOGR_0012_2,baggie,plate 1
+BOTE_0013,Towner_Berg_West,Location available upon request and owner approval ,,no,no,40,w,2018,11285,,box 3,plate 3
+BOTE_0014,Towner_Berg_West,Location available upon request and owner approval ,,no,no,40,w,2018,11284,,box 3,plate 3
+BOTE_0015,Towner_Berg_West,Location available upon request and owner approval ,,no,no,30,w,2018,11283,,box 3,plate 3
+BOTE_0016,Towner_Berg_West,Location available upon request and owner approval ,,no,no,30,w,2018,11282,,box 3,plate 3
+BOTE_0017,Towner_Berg_West,Location available upon request and owner approval ,,no,no,30,w,2018,11281,,box 3,plate 3
+BOTE_0018,Towner_Berg_West,Location available upon request and owner approval ,,no,no,40,w,2018,11280,,box 3,plate 3
+BOTE_0019,Towner_Berg_West,Location available upon request and owner approval ,,no,no,30,w,2018,11279,,box 3,plate 3
+BOTE_0020,Towner_Berg_West,Location available upon request and owner approval ,,no,no,20,w,2018,11278,,box 3,plate 3
+BOTE_0021,Towner_Berg_West,Location available upon request and owner approval ,,no,no,50,w,2018,11277,,box 3,plate 3
+BOTE_0022,Towner_Berg_West,Location available upon request and owner approval ,,no,no,40,w,2018,11276,,box 3,plate 3
+BOTE_0023,EDD-150-065-24,-98.925603,47.801788,yes,no,50,ab,2018,11680,,box 3,plate 3
+BOTE_0024,EDD-150-065-24,-98.925603,47.801788,no,no,20,w,2019,15597,,box 3,plate 3
+BOTE_0025,EDD-150-065-24,-98.925603,47.801788,no,no,20,w,2019,15579,,box 3,plate 3
+BOTE_0026,EDD-150-065-24,-98.925603,47.801788,no,no,50,"ab, 4l",2019,15539,,box 3,plate 3
+BOTE_0027,EDD-150-065-24,-98.925603,47.801788,yes,no,50,ab,2019,15538,,box 3,plate 3
+BOTE_0028,EDD-150-065-24,-98.925603,47.801788,no,no,30,w,2019,15536,,box 3,plate 3
+BOTE_0029,EDD-150-065-24,-98.925603,47.801788,no,no,30,w,2019,15535,,box 3,plate 3
+BOTE_0030,Nelson_Engen,Location available upon request and owner approval ,,no,no,20,w,2018,11229,,box 3,plate 3
+BOTE_0031,Nelson_Engen,Location available upon request and owner approval ,,no,no,20,w,2018,11668,,box 3,plate 3
+BOTE_0032,Nelson_Engen,Location available upon request and owner approval ,,no,no,40,w,2018,11226,,box 3,plate 3
+BOTE_0033,Nelson_Engen,Location available upon request and owner approval ,,no,no,40,w,2018,11227,,box 3,plate 3
+BOTE_0034,Nelson_Engen,Location available upon request and owner approval ,,no,no,30,w,2018,11231,,box 3,plate 3
+BOTE_0035,Nelson_Engen,Location available upon request and owner approval ,,no,no,40,w,2018,11233,,box 3,plate 3
+BOTE_0036,Nelson_Engen,Location available upon request and owner approval ,,no,no,30,w,2018,11234,,box 3,plate 3
+BOTE_0037,Nelson_Engen,Location available upon request and owner approval ,,no,no,30,w,2018,11232,,box 3,plate 3
+BOTE_0038,Nelson_Engen,Location available upon request and owner approval ,,no,no,40,w,2018,11236,,box 3,plate 3
+BOTE_0039,Nelson_Engen,Location available upon request and owner approval ,,no,no,40,w,2018,11230,,box 3,plate 3
+BOTE_0040,Nelson_Engen,Location available upon request and owner approval ,,no,no,30,w,2018,12235,,box 3,plate 3
+BOTE_0041,Nelson_Engen,Location available upon request and owner approval ,,no,no,40,w,2018,11228,,box 3,plate 3
+BOTE_0042,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,752,,box 3,plate 3
+BOTE_0043,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,757,,box 3,plate 3
+BOTE_0044,Griggs_Evers_WPA,-98.360844,47.503219,no,no,30,w,2017,749,,box 3,plate 3
+BOTE_0045,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,766,,box 3,plate 3
+BOTE_0046,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,750,,box 3,plate 3
+BOTE_0047,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,740,,box 3,plate 3
+BOTE_0048,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,756,,box 3,plate 3
+BOTE_0049,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,735,,box 3,plate 3
+BOTE_0050,Griggs_Evers_WPA,-98.360844,47.503219,no,no,30,w,2017,732,,box 3,plate 3
+BOTE_0051,Griggs_Evers_WPA,-98.360844,47.503219,no,no,40,w,2017,760,,box 3,plate 3
+BOTE_0052,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,761,,box 3,plate 3
+BOTE_0053,Griggs_Evers_WPA,-98.360844,47.503219,no,no,30,w,2017,748,,box 3,plate 3
+BOTE_0054,Griggs_Evers_WPA,-98.360844,47.503219,no,no,50,w,2017,759,,box 3,plate 3
+BOTE_0055,Fitzsimond_Slough_WMA,-97.789134,48.94874,yes,no,50,ab,2019,15542,,box 3,plate 3
+BOTE_0056,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,30,w,2017,1135,,box 4,plate 3
+BOTE_0057,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,50,w,2017,1136,,box 4,plate 3
+BOTE_0058,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,30,w,2020,20640,,box 4,plate 3
+BOTE_0059,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,w,2020,20641,,box 4,plate 3
+BOTE_0060,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,30,w,2020,20642,,box 4,plate 3
+BOTE_0061,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,w,2020,20643,,box 4,plate 3
+BOTE_0062,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,w,2020,20644,,box 4,plate 3
+BOTE_0063,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,50,w,2020,20645,,box 4,plate 3
+BOTE_0064,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,w,2020,20646,,box 4,plate 3
+BOTE_0065,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,40,w,2018,11215,,box 4,plate 3
+BOTE_0066,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,30,w,2018,11214,,box 4,plate 3
+BOTE_0067,Fitzsimond_Slough_WMA,-97.789134,48.94874,Unknown ,no,30,w,2018,na,,box 4,plate 3
+BOTE_0068,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,60,w,2018,11213,,box 4,plate 3
+BOTE_0069,Fitzsimond_Slough_WMA,-97.789134,48.94874,Unknown ,no,40,w,2018,na,,box 4,plate 3
+BOTE_0070,Fitzsimond_Slough_WMA,-97.789134,48.94874,no,no,20,w,2018,11211,,box 4,plate 3
+BOTE_0071,FOS-147-062-26,-98.525493,47.518368,no,no,30,w,2018,11268,,box 4,plate 3
+BOTE_0072,FOS-147-062-26,-98.525493,47.518368,no,no,40,w,2018,11267,,box 4,plate 3
+BOTE_0073,FOS-147-062-26,-98.525493,47.518368,no,no,30,w,2020,21081,,box 4,plate 3
+BOTE_0074,FOS-147-062-26,-98.525493,47.518368,no,no,50,w,2017,2028,,box 4,plate 3
+BOTE_0075,FOS-147-062-26,-98.525493,47.518368,no,no,40,w,2020,20594,,box 4,plate 3
+BOTE_0076,FOS-147-062-26,-98.525493,47.518368,no,no,50,w,2020,20593,,box 4,plate 3
+BOTE_0077,FOS-147-062-26,-98.525493,47.518368,no,no,40,w,2020,20592,,box 4,plate 3
+BOTE_0078,FOS-147-062-26,-98.525493,47.518368,no,no,30,w,2020,20590,,box 4,plate 3
+BOTE_0079,FOS-147-062-26,-98.525493,47.518368,no,no,50,w,2020,20589,,box 4,plate 3
+BOTE_0080,FOS-147-062-26,-98.525493,47.518368,no,no,30,w,2020,20598,,box 4,plate 3
+BOTE_0081,FOS-147-062-26,-98.525493,47.518368,Unknown ,no,40,w,2017,118,,box 4,plate 3
+BOTE_0082,FOS-147-062-26,-98.525493,47.518368,no,no,60,ab,2020,20599,,box 4,plate 3
+BOTE_0083,GRI-148-061-16,-98.451647,47.637272,no,no,40,w,2020,21084,,box 4,plate 3
+BOTE_0084,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2017,490,,box 4,plate 3
+BOTE_0085,GRI-148-061-16,-98.451647,47.637272,no,no,40,w,2017,487,,box 4,plate 3
+BOTE_0086,GRI-148-061-16,-98.451647,47.637272,no,no,40,w,2017,491,,box 4,plate 3
+BOTE_0087,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2017,493,,box 4,plate 3
+BOTE_0088,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2017,483,,box 4,plate 3
+BOTE_0089,GRI-148-061-16,-98.451647,47.637272,yes,no,50,"ab, 1l",2019,19960,,box 4,plate 3
+BOTE_0090,GRI-148-061-16,-98.451647,47.637272,no,no,40,w,2017,486,,box 4,plate 3
+BOTE_0091,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2018,11697,,box 4,plate 3
+BOTE_0092,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2018,11696,,box 4,plate 3
+BOTE_0093,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2018,11695,,box 4,plate 3
+BOTE_0094,GRI-148-061-16,-98.451647,47.637272,no,no,30,w,2018,11694,,box 4,plate 3
+BOTE_0095,GRI-148-061-16,-98.451647,47.637272,no,no,40,w,2018,11693,,box 4,plate 4
+BOTE_0096,GRI-148-061-36,-98.377549,47.592612,no,no,40,w,2017,2030,,box 4,plate 4
+BOTE_0097,GRI-148-061-36,-98.377549,47.592612,no,no,30,w,2017,2032,,box 4,plate 4
+BOTE_0098,GRI-148-061-36,-98.377549,47.592612,no,no,40,w,2017,2031,,box 4,plate 4
+BOTE_0099,GRI-148-061-36,-98.377549,47.592612,Unknown ,no,60,ab,2017,32,,box 4,plate 4
+BOTE_0100,GRI-148-061-36,-98.377549,47.592612,yes,no,50,half ab,2017,6,,box 4,plate 4
+BOTE_0101,GRI-148-061-36,-98.377549,47.592612,yes,no,60,ab,2017,39,,box 4,plate 4
+BOTE_0102,GRI-148-061-36,-98.377549,47.592612,yes,no,40,ab,2017,16,,box 4,plate 4
+BOTE_0103,GRI-148-061-36,-98.377549,47.592612,yes,no,50,ab,2017,17,,box 4,plate 4
+BOTE_0104,GRI-148-061-36,-98.377549,47.592612,yes,no,50,ab,2017,15,,box 4,plate 4
+BOTE_0105,GRI-148-061-36,-98.377549,47.592612,yes,no,50,ab,2017,12,,box 4,plate 4
+BOTE_0106,GRI-148-061-36,-98.377549,47.592612,yes,no,60,ab,2017,2,,box 4,plate 4
+BOTE_0107,GRI-148-061-36,-98.377549,47.592612,yes,no,50,ab,2017,21,,box 4,plate 4
+BOTE_0108,GRI-148-061-36,-98.377549,47.592612,yes,no,40,ab,2017,33,,box 4,plate 4
+BOTE_0109,GRI-148-061-36,-98.377549,47.592612,yes,no,50,ab,2017,40,,box 4,plate 4
+BOTE_0110,GRI-148-061-36,-98.377549,47.592612,Unknown ,no,60,ab,2017,41,,box 4,plate 4
+BOTE_0111,Pierce_Long_Lake_WPA,-99.825541,48.48316,yes,no,40,ab,2018,11655,,box 4,plate 4
+BOTE_0112,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15598,,box 4,plate 4
+BOTE_0113,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15596,,box 4,plate 4
+BOTE_0114,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15600,,box 4,plate 4
+BOTE_0115,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2018,11241,,box 4,plate 4
+BOTE_0116,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2018,11240,,box 4,plate 4
+BOTE_0117,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,30,w,2018,11239,,box 4,plate 4
+BOTE_0118,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2020,20611,,box 4,plate 4
+BOTE_0119,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,30,w,2020,20607,,box 4,plate 4
+BOTE_0120,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,40,w,2020,20626,,box 4,plate 4
+BOTE_0121,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,30,w,2020,20625,,box 4,plate 4
+BOTE_0122,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,30,w,2020,20624,,box 4,plate 4
+BOTE_0123,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2020,20623,,box 4,plate 4
+BOTE_0124,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2020,20622,,box 4,plate 4
+BOTE_0125,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2020,20627,,box 4,plate 4
+BOTE_0126,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,30,w,2019,15578,,box 4,plate 4
+BOTE_0127,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15577,,box 4,plate 4
+BOTE_0128,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15576,,box 4,plate 4
+BOTE_0129,Pierce_Long_Lake_WPA,-99.825541,48.48316,no,no,20,w,2019,15599,,box 4,plate 4
+BOTE_0130,Towner_Nikolasien_WPA,-99.225514,48.593681,yes,no,40,ab,2019,15573,,box 4,plate 4
+BOTE_0131,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,30,w,2008,11722,,box 4,plate 4
+BOTE_0132,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,30,w,2019,15552,,box 4,plate 4
+BOTE_0133,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,20,w,2019,15232,,box 4,plate 4
+BOTE_0134,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,20,w,2018,11721,,box 4,plate 4
+BOTE_0135,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,30,w,2018,11720,,box 4,plate 4
+BOTE_0136,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,40,w,2018,11719,,box 4,plate 4
+BOTE_0137,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,30,w,2018,11718,,box 5,plate 4
+BOTE_0138,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,30,w,2018,11717,,box 5,plate 4
+BOTE_0139,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,20,w,2018,11716,,box 5,plate 4
+BOTE_0140,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,30,w,2018,11715,,box 5,plate 4
+BOTE_0141,Towner_Nikolasien_WPA,-99.225514,48.593681,no,no,20,w,2018,155587,,box 5,plate 4
+BOTE_0142,Towner_Nikolasien_WPA,-99.225514,48.593681,yes,no,30,w,2019,15573,,box 5,plate 4
+BOTE_0143,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,yes,no,40,ab,2019,15544,,box 5,plate 4
+BOTE_0144,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,yes,no,50,"ab, 1l",2017,830,,box 5,plate 4
+BOTE_0145,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,20,w,2017,1318,,box 5,plate 4
+BOTE_0146,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,30,w,2018,9446,,box 5,plate 4
+BOTE_0147,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,30,w,2018,9447,,box 5,plate 4
+BOTE_0148,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,30,w,2018,9448,,box 5,plate 4
+BOTE_0149,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,40,w,2018,9449,,box 5,plate 4
+BOTE_0150,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,30,w,2018,9461,,box 5,plate 4
+BOTE_0151,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,30,w,2020,20561,,box 5,plate 4
+BOTE_0152,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,50,w,2017,1102,,box 5,plate 4
+BOTE_0153,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,40,w,2017,1100,,box 5,plate 4
+BOTE_0154,Stutsman_Northwestern_Lake_WPA,-99.194762,47.217251,no,no,40,w,2017,1317,,box 5,plate 4
+BOTE_0155,Steele_Otto_Spies_WMA,-97.599323,47.289063,yes,no,50,ab,2018,11657,,box 5,plate 4
+BOTE_0156,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,30,w,2020,21083,,box 5,plate 4
+BOTE_0157,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,20,w,2017,178,,box 5,plate 4
+BOTE_0158,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,30,w,2017,180,,box 5,plate 4
+BOTE_0159,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,20,w,2017,167,,box 5,plate 4
+BOTE_0160,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,20,w,2017,181,,box 5,plate 4
+BOTE_0161,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,30,w,2017,165,,box 5,plate 4
+BOTE_0162,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,20,w,2017,186,,box 5,plate 4
+BOTE_0163,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,20,w,2017,187,,box 5,plate 4
+BOTE_0164,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,30,w,2017,185,,box 5,plate 4
+BOTE_0165,Steele_Otto_Spies_WMA,-97.599323,47.289063,no,no,30,w,2017,184,,box 5,plate 4
+BOTE_0166,ROL-162-072-36,-99.926416,48.819053,no,no,20,w,2018,11238,,box 5,plate 4
+BOTE_0167,ROL-162-072-36,-99.926416,48.819053,no,no,20,w,2018,11237,,box 5,plate 4
+BOTE_0168,ROL-162-072-36,-99.926416,48.819053,no,no,30,w,2017,1137,,box 5,plate 4
+BOTE_0169,ROL-162-072-36,-99.926416,48.819053,no,no,30,w,2019,15553,,box 5,plate 4
+BOTE_0170,ROL-162-072-36,-99.926416,48.819053,no,no,30,w,2019,15551,,box 5,plate 4
+BOTE_0171,ROL-162-072-36,-99.926416,48.819053,no,no,20,w,2019,15547,,box 5,plate 4
+BOTE_0172,ROL-162-072-36,-99.926416,48.819053,no,no,30,w,2019,15546,,box 5,plate 4
+BOTE_0173,ROL-162-072-36,-99.926416,48.819053,no,no,40,w,2019,15545,,box 5,plate 4
+BOTE_0174,ROL-162-072-36,-99.926416,48.819053,no,no,20,w,2020,21099,,box 5,plate 4
+BOTE_0175,ROL-162-072-36,-99.926416,48.819053,no,no,20,w,2020,21100,,box 5,plate 4
