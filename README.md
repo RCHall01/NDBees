@@ -1,8 +1,6 @@
-# NDBees
+# North Dakota Bumble Bee Landscape Genetics
 
 ---
-
-# Project / Thesis Code Repository
 
 ## Overview
 
