@@ -13,11 +13,17 @@ The goal of this repository is to ensure **reproducibility, transparency, and lo
 
 ## Repository Structure
 ├── NeEstimator/            # Effective population size (Ne) analyses and outputs
+
 ├── R-code/                 # R scripts for data cleaning, statistical analyses, and figures
+
 ├── UMGC_scripts/           # Perl scripts provided by UMGC for bioinformatics
+
 ├── bioinformatics_scripts/ # Genomic data processing (VCF, PLINK, ADMIXTURE, etc.)
+
 ├── data/                   # Metadata associated with the project
+
 ├── unix_code/              # Standalone Unix/bash commands and text-processing workflows
+
 └── README.md
 
 ---
