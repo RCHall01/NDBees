@@ -67,6 +67,6 @@ If you have questions about reproducing specific results, feel free to contact m
 
 **Rhiannon Hall**
 Graduate Researcher
-rhiannonchall#gmail.com
+rhiannonchall@gmail.com
 
 
