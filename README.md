@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains all code used for my graduate research project, master’s thesis, and associated manuscript(s) currently in preparation for publication. The analyses focus on ecological and genetic data processing, statistical modeling, and visualization workflows developed to support the results presented in the thesis and forthcoming paper(s).
+This repository contains all code used for my graduate research project, master’s thesis, and associated manuscript currently in preparation for publication. The analyses focus on ecological and genetic data processing, statistical modeling, and visualization workflows developed to support the results presented in the thesis and forthcoming paper.
 
 The goal of this repository is to ensure **reproducibility, transparency, and long-term accessibility** of all analytical methods used in this research.
 
@@ -12,7 +12,6 @@ The goal of this repository is to ensure **reproducibility, transparency, and lo
 ---
 
 ## Repository Structure
-.
 ├── NeEstimator/            # Effective population size (Ne) analyses and outputs
 ├── R-code/                 # R scripts for data cleaning, statistical analyses, and figures
 ├── UMGC_scripts/           # Perl scripts provided by UMGC for bioinformatics
